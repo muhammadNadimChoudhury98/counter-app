@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 5px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 80px;
+    color: rgb(132, 150, 167);
+}
+h2{
+    font-size: 120px;
+}
+
+button{
+    background-color: aliceblue;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin: 20px 0;
+    
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
